@@ -1,9 +1,0 @@
-/* discord-font.css */
-
-@font-face {
-    font-family: 'Discord';
-    src: url('fonts/ggsans-Medium.woff2') format('woff2'),
-         url('fonts/ggsans-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
