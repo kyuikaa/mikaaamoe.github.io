@@ -1,0 +1,170 @@
+@import url('discord.css');
+/* Global Styles */
+
+body {
+    font-family: 'Discord', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Very dark gray background color */
+    color: #f7f7f7; /* Light text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Header Styles */
+
+header {
+    text-align: center;
+    background-color: #232323; /* Dark gray neumorphic background color */
+    padding: 40px 0;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Onboarding Steps Styles */
+@import url(https://db.onlinewebfonts.com/c/5e7e5b88452bacd9f8b087c3223619b5?family=Ethnocentric+V2);
+
+h1 {
+    font-family: "Ethnocentric V2"; /* Use Ethnocentric font */
+    font-size: 40px; /* Increased font size for h1 */
+    color: #3498db; /* Blue color for h1 text */
+    margin: 0;
+}
+
+.onboarding {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #1e1e1e;
+    padding: 80px 0;
+    transition: background-color 0.3s ease;
+}
+
+.step {
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #232323;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+    margin: 20px; /* Add margin between the step boxes */
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.2),
+                -9px -9px 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Call to Action Styles */
+
+.cta {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #232323;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #1e1e1e; /* Darker background color for the button */
+    color: #f7f7f7; /* Light text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+}
+
+.download-button:hover {
+    background-color: #a2a8ad; /* Darker background color on hover */
+    transform: scale(1.05);
+}
+
+/* Desktop Mockup Styles */
+
+.desktop-mockup {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.desktop-mockup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    background-color: #232323;
+    color: #f7f7f7;
+    padding: 20px 0;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2),
+                -6px -6px 15px rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+.step-icon {
+    font-size: 32px; /* Adjust icon size */
+    color: #3498db; /* Icon color */
+    margin-right: 20px; /* Add margin between icon and content */
+}
+
+.step-content {
+    flex: 1; /* Allow step content to take available space */
+}
+
+/* Dark Mode Styles */
+
+body.darkmode {
+    background-color: #333;
+    color: #f7f7f7;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+    .onboarding {
+        flex-direction: column; /* Stack the step boxes vertically on small screens */
+    }
+
+    .step {
+        width: 80%; /* Adjust the width of the step boxes on small screens */
+        margin: 10px auto; /* Add margin to center the step boxes vertically on small screens */
+    }
+
+    .cta {
+        padding: 80px 0;
+    }
+}
