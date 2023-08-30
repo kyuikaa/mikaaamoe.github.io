@@ -1,16 +1,9 @@
 [
     {
         "appName": "Horizon CodeAi",
-        "iconUrl": "https://example.com/app1-icon.png",
-        "description": "Best Code Convert And Trasnlate Using Ai And GPT-4",
+        "iconUrl": "https://media.discordapp.net/attachments/1136834555819610181/1146481209845764137/20230830_155701.png",
+        "description": "Best Code Convert And Translate Using Ai And GPT-4",
         "size": "443 MB",
-        "buttonUrl": "#"
-    },
-    {
-        "appName": "PassShied",
-        "iconUrl": "https://example.com/app2-icon.png",
-        "description": "Powerfull Local Password Generator",
-        "size": "0 MB",
         "buttonUrl": "#"
     }
 ]
