@@ -1,0 +1,16 @@
+[
+    {
+        "appName": "Horizon CodeAi",
+        "iconUrl": "https://example.com/app1-icon.png",
+        "description": "Best Code Convert And Trasnlate Using Ai And GPT-4",
+        "size": "443 MB",
+        "buttonUrl": "#"
+    },
+    {
+        "appName": "PassShied",
+        "iconUrl": "https://example.com/app2-icon.png",
+        "description": "Powerfull Local Password Generator",
+        "size": "0 MB",
+        "buttonUrl": "#"
+    }
+]
